@@ -1,15 +1,10 @@
-```markdown
 ---
 title: "Project Title"
-subtitle: "A brief description of the project"
-date: YYYY-MM-DD
-categories: ["Category1", "Category2"]
-tags: ["Tag1", "Tag2"]
+layout: portfolio
 ---
 
 # Project Title
-
-![Project Image](path/to/image.jpg)
+Hello
 
 ## Overview
 
@@ -36,7 +31,3 @@ Discuss any challenges faced during the project and how they were overcome.
 Summarize the results or impact of the project.
 
 ## Links
-
-- [Live Demo](#)
-- [Source Code](#)
-```

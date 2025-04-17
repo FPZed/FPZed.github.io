@@ -5,3 +5,10 @@
 layout: home
 ---
 
+## Welcome to My Portfolio
+
+Here's a list of my projects:
+
+{% for item in site.portfolio %}
+- [{{ item.title }}]({{ item.url }})
+{% endfor %}
