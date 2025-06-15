@@ -1,0 +1,14 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Technical Writing"
+    url: /technical-writing/
+  - title: "Content Writing"
+    url: /content-writing/
+  - title: "UX Writing"
+    url: /ux-writing/
+  - title: "Creative Writing"
+    url: /creative/
+
+  - title: "About"
+    url: /about/

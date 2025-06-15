@@ -1,0 +1,126 @@
+
+$ay-textcolor: #2c2e35;
+$ay-primarycolor: #10335c;
+$ay-secondarycolor: #ff7f2a;
+
+.aystyle .title {
+    font-family: "Gill Sans", "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 3.5rem;
+    color: $ay-primarycolor;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 300;
+    padding: 0;
+}
+
+.aystyle .subtitle {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    background-color: $ay-primarycolor;
+    border-bottom: $ay-secondarycolor 8px solid;
+    padding: 0 8px;
+}
+
+.aystyle h1 {
+    font-family: "Avenir", "Nunito Sans", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: $ay-textcolor;
+    border-left: 8px solid $ay-secondarycolor;
+    padding-left: 12px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+.aystyle h1 + p {
+    border-left: 8px solid $ay-secondarycolor;
+    padding-left: 12px;
+}
+
+.aystyle h2 {
+    font-family: "Avenir", "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: lowercase;
+    color: $ay-primarycolor;
+    margin-bottom: 0px;
+    padding-bottom: 0.5rem;
+}
+
+.aystyle h3 {
+    font-family: "Avenir", "Nunito Sans", sans-serif;
+    font-size: 1.1rem;
+    color: $ay-secondarycolor;
+    margin: 0px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.aystyle p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    color: $ay-textcolor;
+    line-height: 1.6;
+    padding-left: 20px;
+}
+
+.aystyle ul {
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+ul li::marker {
+  color: $ay-secondarycolor;
+}
+
+.aystyle blockquote {
+    border-left: 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.aystyle cite {
+    font-size: 0.8rem;
+    color: $ay-secondarycolor;
+    font-style: italic;
+    text-align: right;
+    display: block;
+}
+
+.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.aystyle figure {
+    width: fit-content;
+    
+    &.align-center img {
+        display:block;
+        margin: 0 auto;
+    }
+
+    &.border img {
+        border: 2px solid $ay-primarycolor;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    figcaption {
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.8rem;
+        color: $ay-textcolor;
+        text-align: center;
+    }
+
+    img:hover {
+        transform: scale(1.03);
+        transition: transform 0.3s ease;
+    }   
+}

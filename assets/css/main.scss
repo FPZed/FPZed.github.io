@@ -1,0 +1,172 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+// Override Minimal Mistakes default color variables
+$brand-color:  #f8333cff;
+$secondary-color: #efa00bff;
+$primary-color: #17a398ff;
+$text-color: #092834ff;
+$background-color: rgb(255, 244, 244);
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+@import "custom/blockbuster"; //blockbuster styles
+@import "custom/a11y"; // for accessibility pieces
+@import "custom/tech"; // for technical writing pieces
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 32px 0;
+    padding: 20px;
+}
+
+.portfolio-item a {
+    flex: none;
+    text-decoration: none;
+    color: $text-color; /* Dark text */
+}
+
+.portfolio-item:hover a {
+    text-decoration: underline;
+}
+
+.portfolio-item:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.item-thumbnail {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 2px;
+    border: 4px solid $brand-color;
+}
+
+.portfolio-item:hover .item-thumbnail {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    border: 8px solid $primary-color;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-meta {
+    display: flex;
+    font-size: 0.8rem;
+    color: $brand-color;
+    font-weight: 600;
+    margin: 0;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.item-time::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f017";
+    color: $brand-color;
+    padding-right: 8px;
+    font-weight: 500; /* Regular weight */
+}
+
+.item-type {
+    text-transform: capitalize;
+    
+}
+
+.item-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.item-desc {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+.main-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a.button {
+    display: grid;
+    place-items: center;
+    width: 300px;
+    height: 100px;
+    margin: 25px auto;
+    text-align: center;
+    white-space: nowrap;
+    font-size:1rem;
+}
+
+@keyframes smooth-grow {
+    0% { font-size: 1rem; }
+    100% { font-size:1.2rem; }
+}
+
+a.button:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.4s ease, border-width 0.4s ease;
+    border-width: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.267); /* Shadow effect */
+    animation: smooth-grow 0.3s ease;
+    font-size: 1.2rem;
+}
+
+a.button-technical {
+    background-color: $text-color;
+    color: $background-color;
+    border: 4px solid $primary-color;
+    border-radius: 2px;
+    text-decoration: none;
+    font-family: "Share Tech Mono", monospace;
+    text-align: center;
+}
+
+a.button-content {
+    background-color: $primary-color;
+    color: $background-color;
+    border: 4px solid $secondary-color;
+    border-radius: 2px;
+    text-decoration: none;
+    font-family: "Poiret One", serif;
+}
+
+a.button-ux {
+    background-color: $background-color;
+    color: $secondary-color;
+    border: 4px solid $text-color;
+    border-radius: 2px;
+    text-decoration: none;
+    background-image: 
+        linear-gradient(to right, $text-color 1px, transparent 1px),
+        linear-gradient(to bottom, $text-color 1px, transparent 1px);
+    background-size: 20px 20px; /* Adjust grid spacing */
+    font-family: "Rubik Dirt", sans-serif;
+    text-shadow: 1px 1px 1px $text-color, 2px 2px 2px $text-color;
+}
+
+a.button-creative {
+    background-color: $background-color;
+    color: $brand-color;
+    border: 4px solid $brand-color;
+    border-radius: 2px;
+    text-decoration: none;
+    font-family: "Ole", cursive;
+}

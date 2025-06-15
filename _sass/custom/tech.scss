@@ -1,0 +1,111 @@
+.portfolio-body {
+    font-family: 'Open Sans', sans-serif; /* Change font */
+    font-size: 0.8rem;
+    color: $text-color; /* Darken text */
+    background-color: #f9f9f9; /* Light background */
+
+    .box-alert {
+      display: flex; // Enables proper alignment
+      align-items: center;
+      background-color: #fffaf0;
+      border-left: 5px solid $secondary-color;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+    }
+
+    .box-alert::before {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        color: $secondary-color; /* Change icon color */
+        content: "\f071";
+        font-size: 1.5rem;
+        margin-right: 15px;
+        flex-shrink: 0; // Prevents icon from resizing
+    }
+
+    .box-info {
+      display: flex; // Enables proper alignment
+      align-items: center; // Centers icon vertically
+      background-color: #f0fff4;
+      border-left: 5px solid $primary-color;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+    }
+
+    .box-info::before {
+
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        color: $primary-color; /* Change icon color */
+        content: "\f05a";
+        font-size: 1.5rem;
+        margin-right: 15px;
+        flex-shrink: 0; // Prevents icon from resizing
+    }
+
+    .foldable {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      cursor: pointer;      
+      padding: 12px 15px;
+      border-radius: 5px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.363); /* Light shadow */
+      background-color: $background-color;
+      font-family: inherit; /* Uses the same font as the rest of the document */
+      font-size: inherit;
+      color: inherit;
+      border-collapse: collapse; /* Removes extra spacing */
+    }
+    
+    .foldable:hover {
+      background-color: #f0f0f0; /* Light gray on hover */
+    }
+
+    .foldable::after {
+      content: "\002B";
+      font-size: 1.5rem;
+      margin-left: 10px;
+      //display: block; /* Ensures it renders correctly */
+      transition: max-height 0.3s ease; /* Smooth animation */
+    }
+
+    .foldable.expanded::after {
+      content: "\2212"; /* Minus sign */
+    }
+
+    .foldable td, .foldable th {
+        font-family: inherit;
+        font-size: inherit;
+        color: inherit;
+        line-height: inherit; /* Matches the global line height */
+        //padding: 0; /* Matches regular text */
+        border: none; /* Removes unwanted borders */
+    }
+
+    .foldable tbody tr:first-child {
+      font-size: 0.6rem;
+      font-weight: bold;
+
+    }
+
+}
+
+.portfolio-body img {
+    border: 2px solid $text-color; /* Thin black border */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Light drop shadow */
+    border-radius: 4px; /* Optional: Slight rounded corners */
+  }
+
+.foldable tr:nth-child(2) {
+    display: none;
+}
+
+.portfolio-body figure.table {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
