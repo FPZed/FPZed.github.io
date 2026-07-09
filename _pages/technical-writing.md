@@ -5,6 +5,8 @@ permalink: /technical-writing/
 author_profile: true
 ---
 
+These portfolio samples come from documentation I have contributed to for various products. I've replaced references to real companies with the fictitious tech giant, Nilquist Inc.
+
 {% for piece in site.technical-writing %}
 <div class="portfolio-item">
     <a href = "{{ piece.url }}">

@@ -12,125 +12,71 @@ robots: noindex, nofollow
 
 toc: true
 toc_label: Contents
-classes: wide
-
-sidebar:
-    - image: /assets/images/placeholder_splash.png
-    - title: "Description"
-      text: >-
-        Description of what I did.
-         
-        [Download PDF](#link){: .btn .btn--primary}
-
 
 
 ---
 
-
+<div class="about">
+<h1>About this piece</h1>
+This user guide accompanied the release of a new video call feature for the Nilquist Customer Help platform. The goal of this guide was for agents (our customer's employees) to be able to set up and join a video call with a customer.
+</div>
 
 {::nomarkdown}
 <div class="portfolio-body">
 {:/nomarkdown}
 
 <p>
-    Agents can start video calls with end-users while connected in Live Support. This guide will show you how to start and join a call. For an overview of the Video and Voice application and how to implement it, see <a href="/example/" target="_blank" rel="noopener noreferrer">Video and Voice for Live Support: Overview</a>.
+    You can start video calls with customers while connected in Live Support. This guide will show you how to start and join a call. 
 </p>
 
 <div class="box-info">
     <p>
-        <strong>Note: </strong>This article is for the new Live Support feature. If you are using the legacy version, see <a href="/example/" target="_blank" rel="noopener noreferrer">Starting a video call in Legacy Chat</a>.
+    For an overview of the Video and Voice application and how to implement it, see <a href="/example/" target="_blank" rel="noopener noreferrer">Video and Voice for Live Support: Overview</a>.
     </p>
 </div>
-<figure class="table">
-    <table class="foldable">
-        <tbody>
-            <tr>
-                <td>
-                    <h1>
-                        Set up the video call and share it with the user.
-                    </h1>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>
-                        Join a chat with a user to access video calling. To learn how to answer a chat, see <a href="/example/" target="_blank" rel="noopener noreferrer">Handling chats in Live Support</a>.
-                    </p>
-                    <ol>
-                        <li>
-                            Select the <strong>Video call</strong> icon.
-                            <br>
-                            <img style="width:450px;" src="https://static-or01.inbenta.com/a0a32f9a83d44d857e9ecf4a1233c40d6561eefd882f08529d577dc4ac8e3cea/image_1725884584120.png">
-                        </li>
-                        <li>
-                            In the pop-up that appears, click <strong>ACCEPT</strong> to give the app the necessary permissions:&nbsp;
-                            <br>
-                            <img style="width:400px;" src="https://static-or01.inbenta.com/a0a32f9a83d44d857e9ecf4a1233c40d6561eefd882f08529d577dc4ac8e3cea/image_1725887807517.png">
-                        </li>
-                        <li>
-                            Select <strong>Video Setup</strong>.&nbsp;&nbsp;&nbsp;
-                            <br>
-                            <img style="width:400px;" src="https://static-or01.inbenta.com/a0a32f9a83d44d857e9ecf4a1233c40d6561eefd882f08529d577dc4ac8e3cea/image_1725887865339.png">
-                        </li>
-                        <li>
-                            Select <strong>Click here</strong> to open the Vonage Meetings client in a new window. You’ll be taken to the new window. (what's this for??)
-                            <br>
-                            <img style="width:400px;" src="https://static-or01.inbenta.com/a0a32f9a83d44d857e9ecf4a1233c40d6561eefd882f08529d577dc4ac8e3cea/image_1725887906251.png">
-                        </li>
-                        <li>
-                            Return to the Live Support window, and select the <strong>Copy</strong> button to copy the link.
-                            <br>
-                            <img style="width:400px;" src="https://static-or01.inbenta.com/a0a32f9a83d44d857e9ecf4a1233c40d6561eefd882f08529d577dc4ac8e3cea/image_1725887959041.png">
-                        </li>
-                        <li>
-                            Paste the link to the chat and send it.&nbsp;
-                            <br>
-                            <img style="width:600px;" src="https://static-or01.inbenta.com/a0a32f9a83d44d857e9ecf4a1233c40d6561eefd882f08529d577dc4ac8e3cea/image_1725568677951.png">
-                        </li>
-                    </ol>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</figure>
-<figure class="table">
-    <table class="foldable">
-        <tbody>
-            <tr>
-                <td>
-                    <h1>
-                        Join the call
-                    </h1>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <ol>
-                        <li>
-                            Go to the Vonage Meetings window you opened when setting up the call.
-                        </li>
-                        <li>
-                            Enter your name into the <strong>Enter your name</strong> field.
-                        </li>
-                        <li>
-                            Select <strong>Enter Meeting</strong>.&nbsp;&nbsp;&nbsp;
-                            <br>
-                            <img style="vertical-align:bottom;width:300px;" src="https://static-or01.inbenta.com/a0a32f9a83d44d857e9ecf4a1233c40d6561eefd882f08529d577dc4ac8e3cea/image_1721254770329.png" alt="">
-                        </li>
-                        <li>
-                            Make sure you’re happy with the settings, and select <strong>Join Meeting</strong>.
-                        </li>
-                    </ol>
-                    <figure>
-                        <p>
-                            <img style="width:600px;" src="https://static-or01.inbenta.com/a0a32f9a83d44d857e9ecf4a1233c40d6561eefd882f08529d577dc4ac8e3cea/image_1721254813109.png" alt="">
-                        </p>
-                    </figure>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</figure>
+
+# Set up the video call and invite a user.
+ 
+[Join a Live Support chat](/example/) to access video calling.
+
+1. In the Live Support chat page, select the **Video call** icon.
+![](/assets/images/tech/videocall/image7.png)
+
+2. In the pop-up that appears, click **Accept** to grant the necessary browser permissions.
+
+3. Select **Video Setup**.
+
+4. Select **Start video client**. A new tab will open in your browser where you can join the video chat.
+
+5. Select the **Copy** button to copy the invite link.
+    
+6. Paste the link into the chat and send it.
+![](/assets/images/tech/videocall/image2.png)
+
+---
+
+# Join the call
+
+1. After setting up the call and inviting the customer, go to the Video Client page you opened when setting up the call.
+
+
+
+<ol>
+    <li>
+        Go to the Vonage Meetings window you opened when setting up the call.
+    </li>
+    <li>
+        Enter your name into the <strong>Enter your name</strong> field.
+    </li>
+    <li>
+        Select <strong>Enter Meeting</strong>.&nbsp;&nbsp;&nbsp;
+        <br>
+        <img style="vertical-align:bottom;width:300px;" src="https://static-or01.inbenta.com/a0a32f9a83d44d857e9ecf4a1233c40d6561eefd882f08529d577dc4ac8e3cea/image_1721254770329.png" alt="">
+    </li>
+    <li>
+        Make sure you’re happy with the settings, and select <strong>Join Meeting</strong>.
+    </li>
+</ol>
 
 {::nomarkdown}
 </div>

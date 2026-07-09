@@ -16,15 +16,16 @@ toc_label: Contents
 #classes: wide
 
 
-sidebar:
-    - image: "/assets/images/content/blockbuster/image001.jpg"
-    - title: "Description"
-      text: >-
-        Description of what I did.
-         
-        [Download PDF](#link){: .btn .btn--primary}
+sidebar: false
+
 
 ---
+
+<div class="about">
+<h2>About this piece.</h2>
+This example of a case study was positioned as a contract for the CRTC with the goal of outlining the importance of adaption in the face of industry disruption. Etc etc.
+</div>
+
 
 {::nomarkdown}
 <div class = "bbstyle">

@@ -4,11 +4,12 @@ search: false
 ---
 
 // Override Minimal Mistakes default color variables
-$brand-color:  #f8333cff;
+$brand-color: #f8333cff;
 $secondary-color: #efa00bff;
 $primary-color: #17a398ff;
 $text-color: #092834ff;
-$background-color: rgb(255, 244, 244);
+$background-color: rgb(255, 248, 248);
+$about-color: #f8333cff; //rgb(206, 62, 86);
 
 @charset "utf-8";
 
@@ -107,9 +108,9 @@ $background-color: rgb(255, 244, 244);
 a.button {
     display: grid;
     place-items: center;
-    width: 300px;
-    height: 100px;
-    margin: 25px auto;
+    width: 100%;
+    height: 2.5rem;
+    margin: 0.5rem auto;
     text-align: center;
     white-space: nowrap;
     font-size:1rem;
@@ -117,16 +118,16 @@ a.button {
 
 @keyframes smooth-grow {
     0% { font-size: 1rem; }
-    100% { font-size:1.2rem; }
+    100% { font-size:1.1rem; }
 }
 
 a.button:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
     transition: transform 0.3s ease, box-shadow 0.4s ease, border-width 0.4s ease;
     border-width: 6px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.267); /* Shadow effect */
     animation: smooth-grow 0.3s ease;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 a.button-technical {
@@ -169,4 +170,69 @@ a.button-creative {
     border-radius: 2px;
     text-decoration: none;
     font-family: "Ole", cursive;
+}
+
+a.button-home {
+    background-color: $background-color;
+    color: $text-color;
+    border: 4px solid $brand-color;
+    border-radius: 2px;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.about {
+    color: $about-color;
+    font-family: "Delius", sans-serif;
+    padding: 1em;
+    margin: 2em 0;
+    border: 2px solid $about-color;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+
+}
+
+.about h2 {
+    border-bottom: 0px;
+}
+
+#get{
+    font-size:1rem;
+    padding:0px;
+    margin:0px;
+}
+
+#get::before {
+  content: "GET";
+  background: $primary-color;
+  color: $background-color;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-right: 0.5em;
+}
+
+#post{
+    font-size:1rem;
+    padding:0px;
+    margin:0px;
+}
+
+#post::before {
+  content: "POST";
+  background: $secondary-color;
+  color: $background-color;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-right: 0.5em;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #d0d7de;
+  margin: 2.5rem 0;
 }

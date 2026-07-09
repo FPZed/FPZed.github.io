@@ -93,6 +93,11 @@
 
     }
 
+    .foldable pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
 }
 
 .portfolio-body img {
@@ -108,4 +113,21 @@
 .portfolio-body figure.table {
   margin-top: 0;
   margin-bottom: 10px;
+}
+
+code {
+  background: #f4f4f7;        /* soft gray background */
+  color: #c7254e;             /* subtle red tone */
+  padding: 2px 2px;
+  border-radius: 4px;
+  font-size: 0.95em;
+  border: 1px solid #e1e1e8;
+}
+
+pre, pre code {
+  background: #1e1e1e;        /* dark theme block */
+  color: #f8f8f2;             /* light text */
+  border: 1px solid #333;
+  border-radius: 6px;
+  line-height: 1.5;
 }

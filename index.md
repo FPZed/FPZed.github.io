@@ -1,16 +1,19 @@
 ---
 layout: collection
 entries_layout: single
-title: Welcome to my portfolio
+title:
 permalink: /
 show_recent: false
-author_profile: true
+author_profile: false
 ---
 
-I've sorted my portfolio into different areas. Each area has a distinct audience I'm reaching, and a different goal in what I'm communicating.
+<img src="/assets/images/avatar.png" style="width:50%; height:auto; display:block; margin:0 auto" />
+
+My name is Francois and you've found my website. Here, you'll find samples of writing I've done over the years in a vast range of fields from technical writing, user experience, and marketing content. Something something my story, something compelling, interesting, not boring.
+
 <div class="main-buttons">
-    <a href="/technical-writing/" class="button button-technical">technical_writing();</a>
-    <a href="/content-writing/" class="button button-content">Content Writing</a>
-    <a href="/ux-writing/" class="button button-ux">USER EXPERIENCE</a>
-    <a href="/creative-writing/" class="button button-creative">Creative Writing</a>
+    <a href="/technical-writing/" class="button button-home">Technical Writing</a>
+    <a href="/content-writing/" class="button button-home">Content Writing</a>
+    <a href="/ux-writing/" class="button button-home">User Experience Design</a>
+    <a href="/creative-writing/" class="button button-home">Creative Writing</a>
 </div>

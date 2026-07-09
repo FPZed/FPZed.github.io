@@ -9,19 +9,11 @@ piece_type: "Feature overview"
 layout: single
 robots: noindex, nofollow
 
-
-
 toc: true
 toc_label: Contents
-classes: wide
 
-sidebar:
-    - image: /assets/images/placeholder_splash.png
-    - title: "Description"
-      text: >-
-        Description of what I did.
-         
-        [Download PDF](#link){: .btn .btn--primary}
+
+sidebar: false
 
 
 
@@ -96,3 +88,7 @@ sidebar:
 <p>
     See <a href="/example/" target="_blank">Generative AI consent dialog for Federated Bot</a> to learn how to set up a consent dialog.
 </p>
+
+{::nomarkdown}
+</div>
+{:/nomarkdown}

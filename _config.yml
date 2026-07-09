@@ -13,7 +13,7 @@ url: "https://fpzed.github.io/" # the base hostname & protocol for your site, e.
 repository: "FPZED/FPZed.github.io"
 logo: ""
 words_per_minute: 200
-breadcrumbs: true
+breadcrumbs: false
 
 linkedin_username: "www.linkedin.com/in/fpzucco"
 github_username:  FPZed
