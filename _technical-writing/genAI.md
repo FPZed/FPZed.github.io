@@ -15,7 +15,7 @@ toc_label: Contents
 
 sidebar: false
 
-
+hidden: true
 
 ---
 

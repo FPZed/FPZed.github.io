@@ -8,6 +8,7 @@ author_profile: true
 These portfolio samples come from documentation I have contributed to for various products. I've replaced references to real companies with the fictitious tech giant, Nilquist Inc.
 
 {% for piece in site.technical-writing %}
+{% unless piece.hidden %}
 <div class="portfolio-item">
     <a href = "{{ piece.url }}">
     <img src="{{ piece.thumbnail }}" class="item-thumbnail">
@@ -28,4 +29,5 @@ These portfolio samples come from documentation I have contributed to for variou
         <p class = "item-desc">{{ piece.description }}</p>
     </div>
 </div>
+{% endunless %}
 {% endfor %}
