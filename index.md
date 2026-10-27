@@ -9,7 +9,7 @@ author_profile: false
 
 <img src="/assets/images/avatar.png" style="width:50%; height:auto; display:block; margin:0 auto" />
 
-My name is Francois and you've found my website. Here, you'll find samples of writing I've done over the years in a vast range of fields from technical writing, user experience, and marketing content. Something something my story, something compelling, interesting, not boring.
+I’m François, a technical writer focused on making complex products feel simple. I work across product documentation, UX writing, and developer facing content to help users understand new features quickly and confidently. My approach is plain language, user first, and grounded in clear, purposeful communication. I like building documentation that reduces friction, supports discovery, and makes the web a more usable place.
 
 <div class="main-buttons">
     <a href="/technical-writing/" class="button button-home">Technical Writing</a>

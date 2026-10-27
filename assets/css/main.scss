@@ -19,6 +19,7 @@ $about-color: #f8333cff; //rgb(206, 62, 86);
 @import "custom/blockbuster"; //blockbuster styles
 @import "custom/a11y"; // for accessibility pieces
 @import "custom/tech"; // for technical writing pieces
+@import "custom/resume"; // for resume page
 
 .portfolio-item {
     display: flex;
@@ -184,7 +185,8 @@ a.button-home {
 
 .about {
     color: $about-color;
-    font-family: "Delius", sans-serif;
+    font-family: "Merriweather", serif;
+    font-size: 0.85rem;
     padding: 1em;
     margin: 2em 0;
     border: 2px solid $about-color;
@@ -194,6 +196,7 @@ a.button-home {
 }
 
 .about h2 {
+    margin: 0em;
     border-bottom: 0px;
 }
 

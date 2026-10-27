@@ -1,11 +1,8 @@
 ---
-title: Nilquist API
-description: "Nilquist API has introduced two new endpoints that use integrated Gen AI to analyze and summarize conversations."
+title: "API Documentation: Sentiment Analysis and Summarization"
+description: "API documentation for new sentiment analysis and summarization endpoints added to a REST API."
 thumbnail: /assets/images/placeholder_splash.png
 piece_type: "API documentation"
-
-
-
 
 layout: single
 robots: noindex, nofollow
@@ -18,11 +15,12 @@ toc_label: Contents
 sidebar:
     nav: ""
 
+author_profile: false
 ---
 
 <div class="about">
 <h2>About this piece.</h2>
-This is some information about the piece.
+API documentation for new sentiment analysis and summarization endpoints added to a REST API. To support the release of new AI-powered features, I worked with engineering to validate technical specifications, update the Swagger file, and create clear documentation for developers, including endpoint descriptions and response examples. This piece demonstrates API documentation and developer-focused writing.
 </div>
 
 {::nomarkdown}
@@ -42,11 +40,6 @@ Nilquist limits requests to ensure platform stability. For more information on y
 
 # API Routes
 These endpoints allow you to analyze a Helper Bot conversation.
-
-<div class="about">
-<h2>What I did.</h2>
-As a technical writer, my job was to update our API documentation with new endpoints being developed as we added new AI features to our product. I coordinated with the development team in charge of this product to find out the requirements. Each route explains its purpose and what it does. Blah blah blah.
-</div>
 
 <div class = table>
 <table class = foldable>
@@ -194,11 +187,6 @@ Returns a string with a summary of the text or conversations.
 
 # Change Log
 Here are the latest updates to Nilquist API.
-
-<div class="about">
-<h2>What I did.</h2>
-As a technical writer, my job was to update our API documentation with new endpoints being developed as we added new AI features to our product. I coordinated with the development team in charge of this product to find out the requirements. Each route explains its purpose and what it does. Blah blah blah.
-</div>
 
 <div class = table>
 <table class = foldable>

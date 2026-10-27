@@ -1,7 +1,7 @@
 ---
 
 title: "Adding webhooks to connect with external systems"
-description: "Webhooks extend Nilquist support by hooking in external services. Learn how to set up your own webhooks."
+description: "A tutorial to help users connect external systems using webhooks."
 thumbnail: /assets/images/placeholder_splash.png
 piece_type: "User Guide"
 
@@ -13,13 +13,15 @@ toc_label: Contents
 
 sidebar: false
 
+author_profile: false
+
 #classes: portfolio-body
 
 ---
 
 <div class="about">
 <h1>About this piece</h1>
-This user guide was written for our technical and non-technical customers to introduce webhooks and explain the set up process. The goal was to provide a starting point for customers interested in extending their product's functionality, which is why conceptual information and use cases were included. But shouldn't articles do one thing only?
+A tutorial to help users connect external systems using webhooks. Low adoption revealed a gap in user understanding of webhook concepts and implementation. I collaborated with engineering, researched internal documentation, and developed a beginner-friendly guide that combines technical explanation with practical setup instructions. This piece demonstrates conceptual documentation, technical translation, and user-focused instructional writing.
 </div>
 
 {::nomarkdown}
@@ -223,15 +225,13 @@ Select an option below to learn how to add a Customer Help or Live Support webho
 # Examples
 Since webhooks allow you to tie in an external system, you can use them to do nearly anything. Select an example below.
 
-![Customer calling an agent](/assets/images/tech/webhooks/customer%20service.png)
-
 <figure class="table">
     <table class="foldable">
         <tbody>
             <tr>
                 <td>
                     <h1>
-                        Assign chats using an external algorithm
+                        Assigning chats using an external algorithm
                     </h1>
                 </td>
             </tr>
@@ -260,15 +260,13 @@ Since webhooks allow you to tie in an external system, you can use them to do ne
     </table>
 </figure>
 
-![Analyst gathers data using webhook](/assets/images/tech/webhooks/web%20analyst.png)
-
 <figure class="table">
     <table class="foldable">
         <tbody>
             <tr>
                 <td>
                     <h1>
-                        Integrate Customer Help with a Business Intelligence (BI) system
+                        Integrating Customer Help with a Business Intelligence (BI) system
                     </h1>
                 </td>
             </tr>

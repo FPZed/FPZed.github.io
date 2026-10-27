@@ -1,7 +1,7 @@
 ---
 
 title: "Start a video call"
-description: "A step-by-step guide on how to set up a Video Call through Nilquist Live Support."
+description: "A help center guide for a video-calling feature."
 thumbnail: /assets/images/placeholder_splash.png
 piece_type: "User Guide"
 
@@ -18,7 +18,7 @@ toc_label: Contents
 
 <div class="about">
 <h1>About this piece</h1>
-This user guide accompanied the release of a new video call feature for the Nilquist Customer Help platform. The goal of this guide was for agents (our customer's employees) to be able to set up and join a video call with a customer.
+A help center guide for a video-calling feature. To support feature adoption and reduce support tickets, I worked with the product team to understand the workflow, captured screenshots in a test environment, and created concise, task-based documentation. This piece demonstrates clear, low-friction instructional writing focused on helping users quickly complete a single task.
 </div>
 
 {::nomarkdown}
@@ -26,7 +26,7 @@ This user guide accompanied the release of a new video call feature for the Nilq
 {:/nomarkdown}
 
 <p>
-    You can start video calls with customers while connected in Live Support. This guide will show you how to start and join a call. 
+    You can start video calls with customers while connected in Live Support. This guide will show how to start and join a call. 
 </p>
 
 <div class="box-info">
@@ -59,24 +59,11 @@ This user guide accompanied the release of a new video call feature for the Nilq
 
 1. After setting up the call and inviting the customer, go to the Video Client page you opened when setting up the call.
 
+2. Enter your name into the <strong>Name</strong> field.
 
+3. Select <strong>Enter Meeting</strong>.
 
-<ol>
-    <li>
-        Go to the Vonage Meetings window you opened when setting up the call.
-    </li>
-    <li>
-        Enter your name into the <strong>Enter your name</strong> field.
-    </li>
-    <li>
-        Select <strong>Enter Meeting</strong>.&nbsp;&nbsp;&nbsp;
-        <br>
-        <img style="vertical-align:bottom;width:300px;" src="https://static-or01.inbenta.com/a0a32f9a83d44d857e9ecf4a1233c40d6561eefd882f08529d577dc4ac8e3cea/image_1721254770329.png" alt="">
-    </li>
-    <li>
-        Make sure you’re happy with the settings, and select <strong>Join Meeting</strong>.
-    </li>
-</ol>
+4. Adjust the sound and display settings to your preference, then select <strong>Join Meeting</strong>.
 
 {::nomarkdown}
 </div>
