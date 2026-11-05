@@ -14,7 +14,7 @@ classes: wide
 # Experience
 ## Technical Writer
 ### Inbenta
-*November 2023 to now*
+*November 2023 to September 2026*
 * **Documentation overhaul**: Led a full refresh of Help Center content during a major product overhaul, replacing outdated articles with 24 concise, task‑based guides (e.g., Create a Ticket, Configure Video Chat), enabling customer self-service.
 * **UX microcopy**: Wrote clear, accessible in app copy for a flagship product in continuous beta, partnering with UX designers and PMs to introduce new concepts and workflows. Built a microcopy style guide to standardize tone, terminology, and patterns across the product.
 * **Developer Portal maintenance**: Maintained API and SDK documentation for a suite of AI products with bi weekly releases, partnering with engineers to ensure the Developer Portal remained useful and accurate.

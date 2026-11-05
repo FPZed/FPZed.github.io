@@ -2,9 +2,9 @@
 #minimal_mistakes_skin: "mint"
 locale: "en"
 
-title: "Francois' Portfolio"
+title: "François' Portfolio"
 subtitle: "Technical, content and UX writer"
-name: "Francois Zucco"
+name: "François Zucco"
 email: "francois.zucco@hotmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
   "Portfolio for my technical, content and other writing."
@@ -20,12 +20,10 @@ github_username:  FPZed
 
 # Site Author
 author:
-  name             : "Francois Zucco"
+  name             : "François Zucco"
   avatar           : "/assets/images/avatar.png"
   bio              : >-
-    I am technical and content writer, focusing on educating and guiding users through intuitive UX design
-    and writing and user-first guides and articles. My goal is to make a positive contribution to the internet that leads to painless and 
-    helpful experiences, be it using business software, navigating a website, or learning.
+    I’m François, a technical writer who explains complex topics in plain, direct language. I work on technical documentation, UX writing, and developer-facing content to help users embrace new products and features with confidence. My approach is plain-language and action-first. My goal is to contribute to a friendlier web that works for everyone.
   location         : "Toronto, Ontario"
   #email            : "Francois.Zucco@hotmail.com"
   links:
