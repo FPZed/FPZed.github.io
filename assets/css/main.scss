@@ -54,6 +54,17 @@ $about-color: #f8333cff; //rgb(206, 62, 86);
     border: 4px solid $brand-color;
 }
 
+@media screen and (max-width: 768px) {
+    .portfolio-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .item-thumbnail {
+        display: none;
+    }
+}
+
 .portfolio-item:hover .item-thumbnail {
     transform: scale(1.05);
     transition: transform 0.3s ease;
