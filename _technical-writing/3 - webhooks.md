@@ -1,8 +1,8 @@
 ---
 
-title: "Adding webhooks to connect with external systems"
+title: "Technical tutorial: Adding webhooks to connect with external systems"
 description: "A tutorial to help users connect external systems using webhooks."
-thumbnail: /assets/images/placeholder_splash.png
+thumbnail: /assets/images/tech/webhooks/2.png
 piece_type: "User Guide"
 
 layout: single

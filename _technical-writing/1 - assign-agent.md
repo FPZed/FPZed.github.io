@@ -1,6 +1,6 @@
 ---
 
-title: "Integration Guide: Automating Agent Assignment with Webhooks"
+title: "Integration guide: Automating agent assignment with webhooks"
 description: "A guide that shows users how to use a webhook to automatically assign agents to incoming chat requests."
 thumbnail: /assets/images/placeholder_splash.png
 piece_type: "Integration Guide"

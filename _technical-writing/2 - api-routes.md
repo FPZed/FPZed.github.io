@@ -1,7 +1,7 @@
 ---
-title: "API Documentation: Sentiment Analysis and Summarization"
+title: "API documentation: Sentiment analysis and summarization"
 description: "API documentation for new sentiment analysis and summarization endpoints added to a REST API."
-thumbnail: /assets/images/placeholder_splash.png
+thumbnail: /assets/images/tech/assign-agent/Designer.png
 piece_type: "API documentation"
 
 layout: single
@@ -12,8 +12,7 @@ classes: wide
 toc: false
 toc_label: Contents
 
-sidebar:
-    nav: ""
+sidebar: false
 
 author_profile: false
 ---

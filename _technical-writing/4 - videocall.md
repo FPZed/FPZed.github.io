@@ -1,8 +1,8 @@
 ---
 
-title: "Start a video call"
+title: "User guide: Start a video call"
 description: "A help center guide for a video-calling feature."
-thumbnail: /assets/images/placeholder_splash.png
+thumbnail: /assets/images/tech/videocall/image7.png
 piece_type: "User Guide"
 
 layout: single

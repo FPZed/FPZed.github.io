@@ -9,7 +9,7 @@ $secondary-color: #efa00bff;
 $primary-color: #17a398ff;
 $text-color: #092834ff;
 $background-color: rgb(255, 248, 248);
-$about-color: #f8333cff; //rgb(206, 62, 86);
+$about-color: #17a398ff; //rgb(206, 62, 86);
 
 @charset "utf-8";
 
@@ -185,9 +185,9 @@ a.button-creative {
 }
 
 a.button-home {
-    background-color: $background-color;
-    color: $text-color;
-    border: 4px solid $brand-color;
+    background-color: $primary-color;
+    color: $background-color;
+    border: 4px solid $background-color;
     border-radius: 2px;
     text-decoration: none;
     font-family: "Open Sans", sans-serif;
@@ -249,4 +249,10 @@ hr {
   border: none;
   border-top: 1px solid #d0d7de;
   margin: 2.5rem 0;
+}
+
+img {
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
